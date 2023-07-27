@@ -65,7 +65,7 @@ where o.CustomerID is null
 Select * from Customers c right join Orders o
 on c.CustomerID = o.CustomerID 
 
---birden fazla rablo join etmek
+--birden fazla tablo join etmek
 select * 
 from Products p inner join [Order Details] od
 on p.ProductID = od.ProductID 
